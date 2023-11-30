@@ -82,6 +82,7 @@
 
 <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST" && empty($error_nama) && empty($error_email) && empty($error_jenis_kelamin) && empty($error_operasi)) {
+
         // Proses data setelah validasi
         // Misalnya, lakukan sesuatu dengan data yang disubmit
         echo "Data yang disubmit:<br>";
